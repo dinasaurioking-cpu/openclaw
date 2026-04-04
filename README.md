@@ -33,7 +33,39 @@ New install? Start here: [Getting started](https://docs.openclaw.ai/start/gettin
 ## Sponsors
 
 | OpenAI                                                            | Vercel                                                            | Blacksmith                                                                   | Convex                                                                |
-| ----------------------------------------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| ----------------------------------------------------------------- | --------Dale, en tu terminal local:
+
+```bash
+# 1. Cloná tu repo
+git clone https://github.com/dinasaurioking-cpu/openclaw.git
+cd openclaw
+
+# 2. Instalá dependencias
+pnpm install
+
+# 3. builds el UI
+pnpm ui:build
+
+# 4. Compilá
+pnpm build
+
+# 5. Instalá el daemon (Background service)
+pnpm openclaw onboard --install-daemon
+
+# 6. Modo desarrollo
+pnpm gateway:watch
+```
+
+---
+
+**Cuando esté corriendo:**
+- Vas a tener OpenClaw levanto localmente
+- Podés abrir el control UI ( http://localhost:3001 o el puerto que muestre )
+- ¡Y después integramos la Git AI app que hicimos!
+
+---
+
+**Si tenés errores en algún paso,** pegame el output y te ayudo a debugear. 🚀--------------------------------------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | [![OpenAI](docs/assets/sponsors/openai.svg)](https://openai.com/) | [![Vercel](docs/assets/sponsors/vercel.svg)](https://vercel.com/) | [![Blacksmith](docs/assets/sponsors/blacksmith.svg)](https://blacksmith.sh/) | [![Convex](docs/assets/sponsors/convex.svg)](https://www.convex.dev/) |
 
 **Subscriptions (OAuth):**
