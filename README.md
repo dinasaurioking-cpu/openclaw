@@ -34,7 +34,13 @@ New install? Start here: [Getting started](https://docs.openclaw.ai/start/gettin
 
 | OpenAI                                                            | Vercel                                                            | Blacksmith                                                                   | Convex                                                                |
 | ----------# En tu terminal, dentro del repo
-cat > README.md------------------------------------------------------- | --------Dale, en tu terminal local:
+cat > README.md-------------# Terminal de tu compu
+
+# Ver devices conectados
+openclaw devices list
+
+# Aprobar device
+openclaw devices approveopenclaw gateway --port 18789 --verbose------------------------------------------ | --------Dale, en tu terminal local:
 
 ```bash
 # 1. Cloná tu repo
