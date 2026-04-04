@@ -33,7 +33,8 @@ New install? Start here: [Getting started](https://docs.openclaw.ai/start/gettin
 ## Sponsors
 
 | OpenAI                                                            | Vercel                                                            | Blacksmith                                                                   | Convex                                                                |
-| ----------------------------------------------------------------- | --------Dale, en tu terminal local:
+| ----------# En tu terminal, dentro del repo
+cat > README.md------------------------------------------------------- | --------Dale, en tu terminal local:
 
 ```bash
 # 1. Cloná tu repo
