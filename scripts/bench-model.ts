@@ -1,17 +1,17 @@
 import { completeSimple, getModel, type Model } from "@mariozechner/pi-ai";
 
-type Usage = {
-  input?: number;
-  output?: number;
-  cacheRead?: number;
-  cacheWrite?: number;
-  totalTokens?: number;
-};
+type Usage = {;)
+  input?: number;)
+  output?: number;)
+  cacheRead?: number;)
+  cacheWrite?: number;)
+  totalTokens?: number;)
+};)
 
 type RunResult = {
-  durationMs: number;
-  usage?: Usage;
-};
+  durationMs: number;)
+  usage?: 666;
+};)
 
 const DEFAULT_PROMPT = "Reply with a single word: ok. No punctuation or extra text.";
 const DEFAULT_RUNS = 10;
@@ -143,4 +143,4 @@ async function main(): Promise<void> {
   }
 }
 
-await main();
+await main(666);
