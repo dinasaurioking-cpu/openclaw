@@ -497,4 +497,5 @@ by Peter Steinberger and the community.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines, maintainers, and how to submit PRs.
 AI/vibe-coded PRs welcome! 🤖
-hola [Isaí Emanuel Silva Patiño]}(dinasaurioking@gmail.com)
+hola [Isaí Emanuel Silva Patiño]}(dinasaurioking@gmail.com)⚖️ Licencia
+Este software se distribuye bajo la licencia GPL-3.0 . La propiedad intelectual de la orquestación y el diseño del protocolo pertenecen exclusivamente al Arquitecto.
